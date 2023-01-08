@@ -1,0 +1,44 @@
+@import url("./styles/header.css");
+@import url("./styles/main-content.css");
+@import url("./styles/buttons.css");
+
+.main-container {
+  overflow: hidden;
+}
+
+.bg-black {
+  background-color: #060606;
+}
+
+.bg-dark-gray {
+  background-color: #131313;
+}
+
+.bg-green {
+  background-color: #1fb622;
+}
+
+.text-black {
+  color: #060606;
+}
+
+.text-green {
+  color: #1fb622;
+}
+
+.border-right {
+  border-right: 3px #1fb622 solid;
+}
+.border-left {
+  border-left: 3px #1fb622 solid;
+}
+.border-bottom {
+  border-bottom: 3px #1fb622 solid;
+}
+.border-top {
+  border-top: 3px #1fb622 solid;
+}
+
+a:hover {
+  color: white !important;
+}

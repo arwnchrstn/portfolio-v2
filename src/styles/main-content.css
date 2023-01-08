@@ -1,0 +1,14 @@
+section {
+  min-height: 100vh;
+}
+
+.main-content {
+  height: 100vh;
+  overflow: auto;
+}
+
+@media screen and (width < 768px) {
+  .main-content {
+    height: 90vh;
+  }
+}

@@ -1,0 +1,26 @@
+ul > li.navigation-item {
+  list-style: none;
+  padding: 6px;
+  transition: 0.3s ease-out;
+}
+
+ul > li.active {
+  background-color: #1fb622;
+  color: #131313;
+  transition: 0.3s ease-out;
+}
+
+ul > li.navigation-item:hover {
+  cursor: pointer;
+}
+
+header {
+  height: 100vh;
+}
+
+@media screen and (width < 768px) {
+  header {
+    height: 10vh;
+    position: relative;
+  }
+}
