@@ -1,5 +1,5 @@
 import { createContext, useReducer } from "react";
-import { navReducer } from "../reducer/NavReducer";
+import { navReducer } from "../reducer/navReducer";
 
 export const NavContext = createContext({});
 
